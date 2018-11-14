@@ -1,0 +1,15 @@
+def list( i ):
+
+        j = 0
+        for j in range(0,i):
+                print("At the top number is %d" % j)
+                numbers.append(j)
+                print ("Numbers now: ",  numbers)
+                print("At the bottom number is %d" % j)
+
+numbers=[]
+i = int(input("> "))
+list(i)
+print("The numbers: ")
+for num in numbers:
+    print(num)
